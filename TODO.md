@@ -1,7 +1,7 @@
 # Ideas
-- Build initial layout 
-- Commit to git
-- Mobile first
+- ~~Build initial layout ~~
+- ~~Commit to git~~
+- ~~Adjusted to mobile~~
 - Animation on images and article
 - Add readme
 - Add linting 
