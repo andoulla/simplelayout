@@ -1,0 +1,17 @@
+
+/* Overrides for mobile sizes */
+nav {
+    font-size: 2em;
+    padding: 40px;
+}
+
+header {padding-top: 160px}
+
+.content {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+
+.image_container {
+    grid-gap: 40px;
+}

@@ -107,20 +107,3 @@ footer {
     font-size: 0.8em;
     color: #787073;
 }
-
-/* Overrides for mobile sizes */
-@media only screen and (max-device-width: 480px) {
-    .content {
-        grid-template-columns: 1fr;
-        grid-gap: 40px;
-    }
-    .image_container {
-        grid-gap: 40px;
-    }
-    nav {
-        font-size: 2em;
-        padding: 40px;
-    }
-    
-    header {padding-top: 160px}
-}
