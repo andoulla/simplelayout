@@ -5,7 +5,12 @@ body {
     margin: 0;
     color: #150d0f;
     font-family: sans-serif;
-    padding-top: 100px; /* TODO: how to remove this? */
+}
+header {
+    background-image: url(https://i.picsum.photos/id/866/200/300.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 40px; /*how to position header without the top padding*/
 }
 
 nav {
@@ -116,5 +121,6 @@ footer {
         font-size: 2em;
         padding: 40px;
     }
-    body {padding-top: 160px}
+    
+    header {padding-top: 160px}
 }
