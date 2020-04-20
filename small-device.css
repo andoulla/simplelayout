@@ -3,10 +3,33 @@
 nav {
     font-size: 2em;
     padding: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
-header {padding-top: 160px}
+nav a:not(:first-child) {
+    display: none;
+}
 
+nav a.icon {
+    display: inline-block;
+    font-weight: 900;
+}
+nav a.icon:hover {
+    text-decoration: none;
+}
+
+nav a.icon::after {
+    content:"...";
+}
+
+header {
+    padding-top: 160px
+}
+
+header h2 {
+    display:none;
+}
 .content {
     grid-template-columns: 1fr;
     grid-gap: 40px;
