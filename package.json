@@ -1,0 +1,19 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "Layout exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andoulla/simplelayout.git"
+  },
+  "author": "m.a.s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andoulla/simplelayout/issues"
+  },
+  "homepage": "https://github.com/andoulla/simplelayout#readme"
+}
