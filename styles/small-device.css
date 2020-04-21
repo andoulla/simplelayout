@@ -11,16 +11,22 @@ nav a:not(:first-child) {
     display: none;
 }
 
-nav a.icon {
-    display: inline-block;
+nav a.mobile-icon {
+    display: inline-flex;
     font-weight: 900;
-}
-nav a.icon:hover {
+    flex-direction: column-reverse;
     text-decoration: none;
 }
 
-nav a.icon::after {
+/* nav .mobile-icon::after {
     content:"...";
+} */
+
+nav .active a {
+    display: block;   
+    text-align: right;
+    padding: 15px 5px;
+    border-bottom: 1px solid #583441;
 }
 
 header {

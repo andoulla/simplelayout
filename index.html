@@ -2,13 +2,28 @@
     <head>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
         <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="styles/small-device.css" />
+        <script type="text/javascript"> 
+            //function 
+            function show() { 
+                var element = document.getElementsByClassName("mobile-icon")[0].parentElement;
+                if (element.classList.contains("active")) {
+                    element.classList.remove("active")
+                } else {
+                    element.classList.add("active");
+                }
+            } 
+        </script>
     </head>
     <body>
         <nav>
             <a href="#">Logo</a>
             <a href="#">Dolor</a>
             <a href="#">Consectetuer</a>
-            <a href="#" class="icon"> </a>
+            <div href="#"  onclick="show()"> 
+                <a href="#" class="mobile-link mobile-icon">...</a>
+                <a href="#" class="mobile-link">Dolor</a>
+                <a href="#" class="mobile-link">Consectetuer</a>
+            </div>
         </nav>
         <header>
             <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing</h1>
