@@ -25,7 +25,7 @@ nav {
     box-sizing: border-box;
 }
 
-nav > a, nav a.mobile-link {
+nav > a {
     color: #4a172b;
     text-transform: uppercase;
     text-decoration: none;
@@ -42,11 +42,7 @@ nav > a:first-child {
     padding-left:0;
 }
 
-nav .mobile-icon {
-    display: none;
-}
-
-.mobile-icon  a.mobile-link {
+nav #mobile-icon {
     display: none;
 }
 

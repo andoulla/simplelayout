@@ -5,7 +5,7 @@
         <script type="text/javascript"> 
             //function 
             function show() { 
-                var element = document.getElementsByClassName("mobile-icon")[0].parentElement;
+                var element = document.getElementById("mobile-icon").parentElement;
                 if (element.classList.contains("active")) {
                     element.classList.remove("active")
                 } else {
@@ -16,14 +16,11 @@
     </head>
     <body>
         <nav>
-            <a href="#">Logo</a>
-            <a href="#">Dolor</a>
-            <a href="#">Consectetuer</a>
-            <div href="#"  onclick="show()"> 
-                <a href="#" class="mobile-link mobile-icon">...</a>
-                <a href="#" class="mobile-link">Dolor</a>
-                <a href="#" class="mobile-link">Consectetuer</a>
-            </div>
+            <a href="#" id="logo">Logo</a>
+            <a href="#" id="mobile-icon" onclick="show()">...</a>
+            <a href="#" class="nav-link">Dolor</a>
+            <a href="#" class="nav-link">Consectetuer</a>
+           
         </nav>
         <header>
             <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing</h1>
