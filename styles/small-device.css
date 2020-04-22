@@ -1,45 +1,44 @@
-
 /* Overrides for mobile sizes */
 nav {
-    font-size: 2em;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  font-size: 2em;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 nav a {
-    display: none;
+  display: none;
 }
 
 nav a#logo {
-    display: block;
+  display: block;
 }
 
 nav a#mobile-icon {
-    display: block;
-    font-weight: 900;
-    text-decoration: none;
+  display: block;
+  font-weight: 900;
+  text-decoration: none;
 }
 
 nav.active .nav-link {
-    display: flex;
-    width: 100%;
-    padding: 20px 0;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
 }
 
 header {
-    padding-top: 160px
+  padding-top: 160px;
 }
 
 header h2 {
-    display:none;
+  display: none;
 }
 .content {
-    grid-template-columns: 1fr;
-    grid-gap: 40px;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
 }
 
 .image_container {
-    grid-gap: 40px;
+  grid-gap: 40px;
 }
