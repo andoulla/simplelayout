@@ -18,6 +18,16 @@
   },
   "homepage": "https://github.com/andoulla/simplelayout#readme",
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.7",
     "prettier": "2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md,html}": "prettier --write"
   }
 }
